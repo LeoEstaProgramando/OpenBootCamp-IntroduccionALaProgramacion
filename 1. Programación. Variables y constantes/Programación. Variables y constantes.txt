@@ -1,0 +1,13 @@
+PROGRAMACIÓN:
+La programación tiene distintos lenguajes, ya sea para el backend o frontend.
+Los lenguajes de programación se actualizan y mueren cada año. Solo sobreviven los más útiles.
+Las aplicacion como ERP, CRM, Facturación, etc. Las aplicaciones de cliente se conectan a las aplicaciones
+de servidor para que se actualicen a tiempo real.
+
+VARIABLES Y CONSTANTES:
+Las variables son valores que ocupan una pequeña parte de la memoria y estas puedan cambiar.
+Las constante son iguales que las variables, pero no cambian de valor. Como pi, gravedad, etc.
+Hay variables locales y globales. Las variables locales solo sirven dentro de una función. Y las 
+variables globales sirven en todo el programa.
+
+var color = rojo;

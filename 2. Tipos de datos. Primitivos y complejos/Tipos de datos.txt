@@ -1,0 +1,9 @@
+DATOS PRIMITIVOS:
+	- Datos númericos: Enteros, flotantes.
+	- Booleanos: True, False.
+	- String: "Cadena de texto"
+
+DATOS COMPLEJOS:
+	-Arrays (mutables): [a, b, b]
+	-Tuplas (inmutables): (a, b, c)
+	-Objetos: Tiene propiedades y métodos.
