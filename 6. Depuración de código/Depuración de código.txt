@@ -1,0 +1,8 @@
+Depuración de código:
+- Consiste en buscar anomalías durante la ejecución de nuestro programa.
+- Depurador no es lo mismo que Run. (Depurador es igual a Debug)
+- Funciona con puntos de ruptura (break point).
+	Los puntos de ruptura es el punto en el que le decimos que pare el programa.
+	Los break point son los puntos rojos que se ubican en las líneas de cada programa.
+	Los break point son configurables, para facilitar la búsqueda de bugs.
+-En conclusión, los depuradores nos ayudan a encontrar los fallos más rápidamente y eficientemente si lo sabemos manejar muy bien.

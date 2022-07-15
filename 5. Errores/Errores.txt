@@ -1,0 +1,36 @@
+Errores de programador:
+
+Error 1: No nombrar bien las variables.
+	El código debe ser capaz de leerse.
+
+Error 2: No comentar lo que hace el código.
+	El código debe explicarse en el programa.
+
+Error 3: Comentar de manera obvia lo que hace el código.
+	El código no debe saturarse de comentarios.
+
+Error 4: No mantener la consistencia en los códigos.
+	El código debe seguir su estilo de identación.
+
+Error 5: No tener un sistema de control de versiones.
+	El código debe estar asegurado ante fallos.
+
+Error 6: No hacer simples tus códigos.
+	El código debe ser simple y legible.
+
+Error 7: Desconocer las actualizaciones de tu lenguaje de programación.
+	El lenguaje se actualiza para ser más simple.
+
+Error 8: Depurar con el print.
+	El código debe ser depurado con un depurador.
+
+Error 9: Crear funciones largas y complegas.
+	Las funciones deben componentizarse.
+
+Error 10: Convertir los decimales a enteros.
+	Los códigos deben ser precisos.
+
+Error 11: Equivocarse en los indices y elementos de un array.
+	No son lo mismo, el indice comienza de cero.
+
+Error 12: No calcular los bytes.

@@ -1,0 +1,55 @@
+Introducción a la Programación Orientada a Objetos:
+
+Objetos: (coche)
+	- Tienen propiedades (tamaño, colores, pesos, etc), son las variables de la clase.
+	- Tienen métodos (abrir puerta, cerrar puerta, tocar claxón, etc).
+	- Se pueden declarar mediante clases.
+	- Las funciones dentro de una clase son métodos.
+	- Los métodos son independientes de las propiedades.
+	- Un constructor nos permite inicializar las propiedades, y a su padre.
+	- Cuando un constructor tiene el parámetro igual a la propiedad, a la propiedad se le tiene que asignar this. >this.numeroDePuertas = numeroDePuertas;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Coche coche = new Coche(); //instanciar nuevo objeto
+		System.out.println(coche.numeroDePuertas);
+		System.out.println(coche.velocidadMaxima);
+		System.out.println(coche.velocidadActual);
+		coche.acelerar();
+		System.out.println(coche.velocidadActual);
+
+		Coche coche2 = new Coche(2, 90); //instanciar nuevo objeto
+		System.out.println(coche2.numeroDePuertas);
+		System.out.println(coche2.velocidadMaxima);
+		System.out.println(coche2.velocidadActual);
+		coche.desacelerar();
+		System.out.println(coche2.velocidadActual);
+	}
+}
+
+class Coche {
+	int numeroDePuertas;
+	int velocidadMaxima;
+	floar velocidadActual;
+	
+	public Coche() {
+		numeroDePuertas = 5;
+		velocidadMaxima = 120;
+		System.out.println("Estoy en el constructor sin parámetros");
+	}
+
+	public Coche(int puertas, int velocidad) {
+		numeroDePuertas = puertas;
+		velocidadMaxima = velocidad;
+		System.out.println("Estoy en el constructor con parámetros");
+	}
+
+	public void acelerar() {
+		velocidadActual += 15;
+	}
+
+	public void desacelerar() {
+		velocidadActual -= 15;
+	}
+}

@@ -1,0 +1,53 @@
+1. Privacidad:
+	1.1 Propiedades privadas: <private String tipo>
+	- Solo se puede usar y unicamente dentro de la clase.
+
+	1.2. Propiedades públicas: <public String tipo>
+	- Se puede usar dentro de la clase como en otras.
+
+2. Encapsulación:
+	2.1. Encapsulamiento setter: <setTipo(String tipo){}>
+	- Para acceder a la propiedad privada.
+	- Se define como la clase pero capitalizandola.
+	- Modifica algo.
+	- Tiene parámetros.
+
+	2.2. Encapsulamiento getter: <getTipo(){}>
+	- Para acceder a la propiedad privada.
+	- Se define como la clase pero capitalizandola.
+ 	- No modifica nada. Solo obtiene información. 
+	- No tiene parámetros.
+
+3. Abstracción: <abstract class Vehiculo {}>
+	- Es una clase parcial, porque tiene una serie de funciones ya programadas, como el set y get.
+	- Se usa mucho con las herencias.
+
+//Probando una propiedad privada.
+
+class Vehiculo {
+	private String tipo; //Propiedad privada
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	
+	public String getTipo() {
+		return this.tipo;
+	}
+}
+
+//Probando setter's y getter's.
+
+public class Main {
+		
+	public static void main(String[] args) {
+		Vehiculo coche = new Vehiculo(); //creando una instancia
+		vehiculo.setTipo("Coupe"); //modificando la propiedad
+		
+		Vehiculo moto = new Vehiculo(); //creando una instancia
+		vehiculo.setTipo("Scotter"); //modificando la propiedad
+
+		
+		System.out.println(coche.getTipo()); //mostrando la propiedad
+		System.out.println(moto.getTipo()); //mostrando la propiedad
+	}
+}
