@@ -1,0 +1,18 @@
+Lenguaje Compilado:
+	Es como un traductor. Compila un lenguaje de entrada a un lenguaje de salida.
+	Compilador código-máquina: 
+	Compilador código-otros:
+	CODIGO FUENTE -> COMPILADOR -> CODIGO FINAL
+	C, C++, RUST, GO
+	CPU, SO
+	Es más rápido que el interpretado, porque va directamente al procesador y memoria.
+
+Lenguaje Interpretado:
+	Lee un código que ha generado el compilador, y lo lee paso a paso.
+	JAVA, PYTHON, PHP, Ruby
+	Es menos rápido porque tiene que pasar por el programa para ser interpretado.
+	Son más faciles de depurar.
+
+JIT Compiler (Just in time):
+	C#
+

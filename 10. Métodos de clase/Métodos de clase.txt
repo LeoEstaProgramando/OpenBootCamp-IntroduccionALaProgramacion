@@ -1,0 +1,11 @@
+Los métodos de clase son funciones.
+
+-Se declara privada o pública.
+-Tiene parámetros.
+-Y devuelve algo.
+
+
+class Coche implements Vehiculo {
+	
+	public void Acelerar(int cuantaVelocidad){
+		 
