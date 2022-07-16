@@ -1,0 +1,23 @@
+Las herencias son las clases que heredan las propiedades y métodos de una clase padre.
+
+	<class Coche extends class Vehiculo {}>
+		class Coche -> Herencia (clase hija)
+		class Vehiculo -> Clase Principal (clase padre)
+
+Herencia multinivel: Es cuando una clase hereda, pero esta clase a su vez hereda de otra.
+	<class Couper extends class Coche{}>
+		class Couper -> Herencia multinivel
+		class Coche -> Herencia (clase hija)
+		class Vehiculo -> Clase Principal (clase padre)
+
+Herencia multiple: Es cuando una clase hereda, de dos clases padres.
+	<class Couper extends class Vehiculo, class Transporte>
+		class Couper -> Herencia multiple
+		class Vehiculo -> Clase principal
+		class Transporte -> Clase principal
+
+Herencia hibrida: Es cuando la herencia, hereda de una multiply y multinivel.*
+
+Los polimorfismos sobreescriben las funciones de la clase Principal.
+
+Las interfaces nos obliga a implementar funciones dentro de la clase.
